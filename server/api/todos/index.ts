@@ -1,4 +1,4 @@
-import { todoService } from '../services/todoService'
+import { todoService } from '../../services/todoService'
 
 export default defineEventHandler(async (event) => {
   const method = event.method
